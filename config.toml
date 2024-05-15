@@ -2,7 +2,8 @@ theme = "awesome-identity"
 baseURL = "https://geetoca.com"
 title = "$ whoami"
 publishDir = "docs"
-disableKinds = ["taxonomy", "term", "taxonomyTerm"]
+disableKinds = ["taxonomy", "term"]
+
 
 ## Profile Configurations
 [params.profile]
