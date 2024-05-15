@@ -1,6 +1,8 @@
 theme = "awesome-identity"
 baseURL = "https://geetoca.com"
 title = "$ whoami"
+publishDir = "docs"
+disableKinds = ["taxonomy", "term", "taxonomyTerm"]
 
 ## Profile Configurations
 [params.profile]
@@ -8,16 +10,19 @@ title = "$ whoami"
   firstname = "Gee"
   lastname = "Toca"
   title = "Cyber Security Enthusiast"
-  bio = """I've been curious to find out how technology works since I was a kid. Currently, I am an IT professional and cyber security enthusiast with a strong interest in Ethical Hacking. In my free time, I search for vulnerabilities on the bug bounty platform <a href="https://hackerone.com/geej">hackerone</a> and <a href="https://bugcrowd.com/geej">bugcrowd</a>."""
+  bio = """I've been curious to find out how technology works since I was a kid. Currently, I am an IT professional and cyber security enthusiast with a strong interest in Ethical Hacking. In my free time, I search for vulnerabilities on the bug bounty platform <a href="https://hackerone.com/geej"> hackerone</a> and <a href="https://bugcrowd.com/geej"> bugcrowd </a>."""
 
 [params.contacts]
   github = "geej-t"
   linkedin = "geej-t"
   twitter = "notgeej"
   medium = "@gee.toca"
+  credly = "geej-t"
 
 ## Footer Configurations
 [params.footer]
   copyright = "© 2024 Gee. [Some rights reserved.](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
   poweredBy = true
 
+[markup.goldmark.renderer]
+unsafe = true
