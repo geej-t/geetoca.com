@@ -16,7 +16,6 @@ disableKinds = ["taxonomy", "term"]
 [params.contacts]
   github = "geej-t"
   linkedin = "geej-t"
-  twitter = "notgeej"
   medium = "@gee.toca"
   credly = "geej-t"
 
